@@ -1,2 +1,5 @@
+import os
+
+
 def module2_function():
-    print("El resultado es:")
+    print(f"La password es {os.environ.get('PASSWORD')}")
